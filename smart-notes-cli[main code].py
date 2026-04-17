@@ -3,7 +3,6 @@ import datetime
 import os
 
 FILE = "notes.json"
-
 # Load notes
 def load_notes():
     if not os.path.exists(FILE):
