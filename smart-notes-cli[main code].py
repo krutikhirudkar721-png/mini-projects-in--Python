@@ -24,7 +24,6 @@ def add_note():
     notes = load_notes()
     notes.append({"text": text, "tag": tag, "time": time})
     save_notes(notes)
-
     print("✅ Note added!")
 
 # View notes
